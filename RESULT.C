@@ -14,12 +14,12 @@ void main()
 		textcolor(GREEN);
 		gotoxy(15,1);cprintf("\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\n");
 		gotoxy(15,2);cprintf("\xB1 ######  #######  #####  #     # #     ####### \xB1\n");
-	    gotoxy(15,3);cprintf("\xB1 #     # #       #     # #     # #        #    \xB1\n");
-	    gotoxy(15,4);cprintf("\xB1 #     # #       #       #     # #        #    \xB1\n");
-	    gotoxy(15,5);cprintf("\xB1 ######  #####    #####  #     # #        #    \xB1\n");
-	    gotoxy(15,6);cprintf("\xB1 #  #    #             # #     # #        #    \xB1\n");
-	    gotoxy(15,7);cprintf("\xB1 #   #   #       #     # #     # #        #    \xB1\n");
-	    gotoxy(15,8);cprintf("\xB1 #    #  #######  #####   #####  #######  #    \xB1\n");
+	        gotoxy(15,3);cprintf("\xB1 #     # #       #     # #     # #        #    \xB1\n");
+	        gotoxy(15,4);cprintf("\xB1 #     # #       #       #     # #        #    \xB1\n");
+	        gotoxy(15,5);cprintf("\xB1 ######  #####    #####  #     # #        #    \xB1\n");
+	        gotoxy(15,6);cprintf("\xB1 #  #    #             # #     # #        #    \xB1\n");
+	        gotoxy(15,7);cprintf("\xB1 #   #   #       #     # #     # #        #    \xB1\n");
+	        gotoxy(15,8);cprintf("\xB1 #    #  #######  #####   #####  #######  #    \xB1\n");
 		gotoxy(15,9);cprintf("\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1 CALCULATOR \xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\n");
 		textcolor(RED);
 		gotoxy(25,12);cprintf("Enter any key to Continue.... ");
@@ -80,7 +80,7 @@ void main()
 			     pem="Pass";
 			}
 		}
-	    else if((e<32 || n<32 || m<32 || s<32 || o<32) )
+	        else if((e<32 || n<32 || m<32 || s<32 || o<32) )
 		{
 		    rem="Fail";
 		    pem="Fail";
@@ -92,7 +92,7 @@ void main()
 		}
 		clrscr();
 		textcolor(LIGHTRED);
-	    gotoxy(20,14);cprintf("LOADING...");
+	        gotoxy(20,14);cprintf("LOADING...");
 		gotoxy(20,15);cprintf("\xB1\xB1\xB1\xB1 (10%)");
 		delay(1000);
 		clrscr();
