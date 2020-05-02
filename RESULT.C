@@ -9,7 +9,6 @@ float pp;
 char nme[20],roll[20],sec[10],cls[10],*rem,*pem;
 void main()
 {
-
 		clrscr();
 		textcolor(GREEN);
 		gotoxy(15,1);cprintf("\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\xB1\n");
@@ -25,7 +24,6 @@ void main()
 		gotoxy(25,12);cprintf("Enter any key to Continue.... ");
 		getch();
 		clrscr();
-		
 		textcolor(RED);
 		cprintf("Student Name:");
 		gets(nme);
@@ -157,12 +155,4 @@ void main()
 		gotoxy(1,22);cprintf(" Division: %s",rem);
 		getch();
 		getch();
-	}
-	
-    
-    
-    
-    
-    
-    
-    
+}
